@@ -1,0 +1,65 @@
+body {
+    background-image: url("../images/memphis-mini.png");
+    margin: 0;
+}
+
+/* header style */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-bottom: solid darkgray 1px;
+}
+
+.headerContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: lightblue;
+    color: gray;
+    height: 30px;
+    padding: 20px 10px;
+    float: left;
+    margin: 0;
+}
+
+nav {
+    float: right;
+    padding: 20px 0 0 0;
+
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px 0 0; 
+}
+
+/* body style */
+
+section {
+    width: 960px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+}
+
+img {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+/* footer style */
+
+footer {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    text-align: center;
+    border-top: solid darkgray 1px;
+}
