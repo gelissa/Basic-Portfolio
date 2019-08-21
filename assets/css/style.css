@@ -49,6 +49,12 @@ section {
     overflow: auto;
 }
 
+.personalImage {
+    transform: rotate(90deg);
+    width: 250px;
+    height: 250px;
+}
+
 img {
     float: left;
     margin: 0 auto;
