@@ -25,12 +25,15 @@ h1 {
     padding: 20px 10px;
     float: left;
     margin: 0;
+    text-decoration: none;
 }
 
 h1:hover{
     background-color: white;
     color: teal;
 }
+
+/* navigation menu */
 
 nav {
     float: right;
@@ -46,7 +49,6 @@ a {
 }
 
 /* body style */
-
 
 /* about page */
 section {
@@ -71,6 +73,7 @@ section {
     float: left;
     margin: 20px 10px;
     padding: 0px;
+    overflow: hidden;
 }
 
 img {
@@ -85,7 +88,7 @@ img {
 /* contact page */
 input[type=text], input[type=email], textarea { 
     width: 100%;
-
+    /* resize: vertical */
 }
 
 /* there is no space for input specifications */
