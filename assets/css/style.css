@@ -27,6 +27,11 @@ h1 {
     margin: 0;
 }
 
+h1:hover{
+    background-color: white;
+    color: teal;
+}
+
 nav {
     float: right;
     padding: 20px 0 0 0;
@@ -46,7 +51,7 @@ a {
 /* about page */
 section {
     width: 960px;
-    height: 450px;
+    height: max-content;
     margin: 30px auto;
     background-color: white;
     padding: 20px;
@@ -92,6 +97,11 @@ input[type=submit] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: teal;
 }
 
 /* gallery page */
