@@ -89,17 +89,22 @@ input[type=submit] {
     height: 250px;
 } */
 
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: max-content;
+    grid-gap: 0px 0px;
+}
+
 /* footer style */
 
 footer {
     width: 100%;
     background-color: white;
-    height: 70px;
+    height: 5%;
     text-align: center;
-    border-top: 8px solid #4aaaa5;
-    /* position:-webkit-sticky; /* Safari 
-    position: sticky;
-    bottom: 0; */
+    font-size: small;
+    border-top: 2px solid #4aaaa5;
 }
 
 #footer {
