@@ -64,7 +64,7 @@ p {
 /* about page */
 section {
     width: 960px;
-    height: max-content;
+    /* height: max-content; */
     margin: 30px auto;
     background-color: #ffffff;
     border: solid #dddddd 1px;
@@ -99,9 +99,13 @@ img {
 
 
 /* contact page */
-input[type=text], input[type=email], textarea { 
+input[type=text], input[type=email] { 
     width: 100%;
     /* resize: vertical */
+}
+
+input[type=text]:hover, input[type=email]:hover, textarea:hover { 
+    border: solid #4aaaa5 1px;
 }
 
 textarea {
